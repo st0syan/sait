@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Заказ чая</title>
+</head>
+<body>
+<div>
+<a href="index.html" target="_self"><img src="img/logo.png" width="40" height="40" alt="На главную"></a>
+<a href="index.html" target="_self">Главная</a> |
+<a href="sorta.html" target="_self">Сорта чая</a> |
+<a href="istoriya.html" target="_self">История чая</a> |
+<a href="zavarivanie.html" target="_self">Заваривание</a> |
+<a href="posuda.html" target="_self">Чайная посуда</a> |
+<a href="contacts.html" target="_self">Контакты</a> |
+<a href="order.html" target="_self"><b style="background:yellow">Заказ чая</b></a> |
+<a href="dom.html" target="_self">DOM: чтение</a> |
+<a href="latin.html" target="_self">DOM: латиница</a> |
+<a href="task.html" target="_self">Задача 1008</a> |
+<a href="sorta.html#r2" target="_self">Зелёный чай (закладка)</a> |
+<a href="https://ru.wikipedia.org/wiki/Чай" target="_blank">Чай в Википедии</a>
+</div>
+<hr>
+
+<h1>Заказ чая</h1>
+Отправка заказа на удалённый сервер. Все поля уже заполнены значениями по умолчанию — можно сразу нажать «Отправить».
+<form action="https://www.bing.com/search?" method="get" target="_blank">
+<input type="hidden" name="q" value="search">
+<input type="hidden" name="order_source" value="tea_site">
+<table>
+<tr><td>Имя покупателя (text):</td><td><input type="text" name="customer_name" value="Станислав"></td></tr>
+<tr><td>Количество, грамм (number):</td><td><input type="number" name="tea_grams" value="100" min="50" step="50"></td></tr>
+<tr><td>Сорт чая (radio):</td><td>
+  <input type="radio" name="tea_type" value="black" checked>Чёрный
+  <input type="radio" name="tea_type" value="green">Зелёный
+  <input type="radio" name="tea_type" value="oolong">Улун
+</td></tr>
+<tr><td>Добавки (checkbox):</td><td>
+  <input type="checkbox" name="additions" value="lemon" checked>Лимон
+  <input type="checkbox" name="additions" value="mint">Мята
+  <input type="checkbox" name="additions" value="sugar" checked>Сахар
+</td></tr>
+<tr><td>Дата доставки (date):</td><td><input type="date" name="delivery_date" value="2026-10-20"></td></tr>
+<tr><td>Пароль заказа (password):</td><td><input type="password" name="order_password" value="1234"></td></tr>
+<tr><td>Комментарий:</td><td><textarea name="comment" cols="30" rows="3">Позвонить перед доставкой</textarea></td></tr>
+</table>
+<input type="reset" value="Вернуть значения по умолчанию">
+<input type="submit" value="Отправить">
+</form>
+
+<hr>
+<small>Попов Станислав, 2007 г.р., группа Марширова В. В.</small>
+</body>
+</html>

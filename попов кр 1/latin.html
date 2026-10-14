@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Изменяем кириллицу на латиницу по клику</title>
+</head>
+<body>
+<div>
+<a href="index.html" target="_self"><img src="img/logo.png" width="40" height="40" alt="На главную"></a>
+<a href="index.html" target="_self">Главная</a> |
+<a href="sorta.html" target="_self">Сорта чая</a> |
+<a href="istoriya.html" target="_self">История чая</a> |
+<a href="zavarivanie.html" target="_self">Заваривание</a> |
+<a href="posuda.html" target="_self">Чайная посуда</a> |
+<a href="contacts.html" target="_self">Контакты</a> |
+<a href="order.html" target="_self">Заказ чая</a> |
+<a href="dom.html" target="_self">DOM: чтение</a> |
+<a href="latin.html" target="_self"><b style="background:yellow">DOM: латиница</b></a> |
+<a href="task.html" target="_self">Задача 1008</a> |
+<a href="sorta.html#r2" target="_self">Зелёный чай (закладка)</a> |
+<a href="https://ru.wikipedia.org/wiki/Чай" target="_blank">Чай в Википедии</a>
+</div>
+<hr>
+
+<h1>Изменяем кириллицу на латиницу по клику</h1>
+<h3>Страница 2</h3>
+<p>Паспорт выдан: <span>ГУ МВД России по г. Москве</span></p>
+<p>Дата выдачи: <span>20.05.2021</span></p>
+<p>Код подразделения: <span>770-001</span></p>
+<h3>Страница 3</h3>
+<table border="1" cellpadding="5"><tr><td width="90" height="120" align="center">Фото</td></tr></table>
+<p>Фамилия: <span id="surname">Попов</span></p>
+<p>Имя: <span id="name">Станислав</span></p>
+<p>Отчество: <span id="patronymic">Александрович</span></p>
+<p>Пол: <span>муж.</span></p>
+<p>Дата рождения: 07.08.2007</p>
+<p>Место рождения: <span>г. Москва</span></p>
+
+<br><button id="for_click">Изменить на латиницу</button>
+<button id="back_click">Вернуть кириллицу</button>
+<script src="js/latin.js"></script>
+
+<hr>
+<small>Попов Станислав, 2007 г.р., группа Марширова В. В.</small>
+</body>
+</html>
